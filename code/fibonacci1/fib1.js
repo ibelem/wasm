@@ -1971,7 +1971,7 @@ function _fibonacci($0) {
  STACKTOP = STACKTOP + 16|0; if ((STACKTOP|0) >= (STACK_MAX|0)) abortStackOverflow(16|0);
  $2 = $0;
  $3 = $2;
- $4 = ($3|0)<(2);
+ $4 = ($3|0)<=(2);
  if ($4) {
   $1 = 1.0;
   $12 = $1;

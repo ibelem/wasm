@@ -13,7 +13,7 @@ typedef long long TIME_T;
 
 double fibonacci(int n)
 {
-  if (n < 2)
+  if (n <= 2)
   {
     return 1;
   }
