@@ -10,13 +10,6 @@ function fibonacci_(n) {
   return b
 }
 
-function fibonacci(n) {
-  if (n <= 2) {
-    return 1
-  } else 
-    return fibonacci(n - 2) + fibonacci(n - 1)
-}
-
 function run(num) {
   let starttime,
     endtime,
@@ -25,14 +18,17 @@ function run(num) {
   console.log('fibonacci('+ num +'): ' + fibonacci_(num))
   console.timeEnd('>')
 }(function main() {
+  run(1)
+  run(2)
+  run(3)
   run(10)
   run(20)
-  run(30)
   run(40)
-  run(50)
   run(60)
-  run(70)
   run(80)
-  run(90)
   run(100)
+  run(200)
+  run(400)
+  run(800)
+  run(1000)
 })()
