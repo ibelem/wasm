@@ -46,6 +46,6 @@ void run(int num)
 
 int main()
 {
-  run(50);
+  run(31);
   return 0;
 }
