@@ -1,15 +1,8 @@
 
 
-                C程序转换 wasm       纯 JavaScript
-fibonacci(10)   1ms                 0.995ms
-fibonacci(20)   2ms                 1.912ms
-fibonacci(30)   10ms                 7.173ms
-fibonacci(40)   1167ms                 613.364ms
+                  JavaScript    WebAssembly      
+add(1,1)          261633        2118773
+add(10,10)        250692        2109682
+add(100,100)      255160        2104851
+add(12345,12345)  256046        2067415
 
-
-fibonacci(50)   1ms                 0.995ms
-fibonacci(100)   1ms                 0.995ms
-fibonacci(200)   1ms                 0.995ms
-fibonacci(500)   1ms                 0.995ms
-fibonacci(1000)   1ms                 0.995ms
-fibonacci(2000)   1ms                 0.995ms
