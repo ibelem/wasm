@@ -1,0 +1,15 @@
+
+
+                C程序转换 wasm       纯 JavaScript
+fibonacci(10)   1ms                 0.995ms
+fibonacci(20)   2ms                 1.912ms
+fibonacci(30)   10ms                 7.173ms
+fibonacci(40)   1167ms                 613.364ms
+
+
+fibonacci(50)   1ms                 0.995ms
+fibonacci(100)   1ms                 0.995ms
+fibonacci(200)   1ms                 0.995ms
+fibonacci(500)   1ms                 0.995ms
+fibonacci(1000)   1ms                 0.995ms
+fibonacci(2000)   1ms                 0.995ms

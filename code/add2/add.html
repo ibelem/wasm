@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Add</title>
+</head>
+
+<body>
+  <script>
+    fetch('add.wasm').then(response =>
+      response.arrayBuffer()
+    ).then(buffer => {
+      let codeBytes = new Uint8Array(buffer);
+      let instance = Wasm.instantiateModule(codeBytes);
+      console.log("201700 + 2 = " + instance.exports.add(201700, 2));
+    });
+  </script>
+</body>
+
+</html>

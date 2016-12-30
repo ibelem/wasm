@@ -1,4 +1,4 @@
-function fibonacci_(n) {
+function fibonacci(n) {
   let a = 0
   let b = 1
   while (n > 1) {
@@ -15,7 +15,7 @@ function run(num) {
     endtime,
     runtime
   console.time('>')
-  console.log('fibonacci('+ num +'): ' + fibonacci_(num))
+  console.log('fibonacci('+ num +'): ' + fibonacci(num))
   console.timeEnd('>')
 }(function main() {
   run(1)
